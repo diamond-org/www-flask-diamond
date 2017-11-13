@@ -1,7 +1,3 @@
-# www-flask-diamond
+# Milestone 1
 
-## Milestone 1
-
-- [ ] set up development environment
-
-## Done
+- [ ] install Jekyll on web host (make depends)
