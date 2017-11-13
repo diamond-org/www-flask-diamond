@@ -9,15 +9,39 @@ excerpt:    The blog is a complete list of events posted to this website.
 
 <div class="home">
 
-  <header class="post-header">
-      <h1 class="post-title">Blog</h1>
+<!--   <header class="post-header">
+      <h1 class="post-title">flask-diamond</h1>
   </header>
+ -->
+
+<p>
+  Flask-Diamond is a batteries-included Flask framework.
+</p>
+
+  <ul>
+    <li><a href="http://docs.flask-diamond.org/">Documentation</a></li>
+    <li><a href="http://flask-diamond.readthedocs.io/en/latest/quick-start/">Installation</a></li>
+    <li><a href="http://github.com/diamond-org/flask-diamond">GitHub Project Page</a></li>
+    <li><a href="http://github.com/diamond-org/flask-diamond/issues">Issue Tracker</a></li>
+    <li><a href="http://pypi.python.org/pypi/Flask-Diamond">Python Project on PyPI</a></li>
+  </ul>
+
+<div class="section" id="screencast">
+<h2>Screencast</h2>
+<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dFp-YtV4898" frameborder="0" allowfullscreen></iframe>
+</center>
+<p>Length: 3:13</p>
+</div>
+
+<!-- 
 
   <p>The blog is a complete list of events posted to this website.  Subscribe <a class="internal" href="{{ "/blog/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
+ -->
 
-  <ul class="post-list">
+<!--   <ul class="post-list">
     {% for post in site.posts %}
-    {% if post.category %} <!-- == "blog" -->
+    {% if post.category == "blog" %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -32,5 +56,5 @@ excerpt:    The blog is a complete list of events posted to this website.
     {% endif %}
     {% endfor %}
   </ul>
-
+ -->
 </div>
